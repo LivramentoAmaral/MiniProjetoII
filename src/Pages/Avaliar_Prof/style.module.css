@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    
+    width: 100%;
+    height: 75vh;
+}
+
+.main > img{
+    width: 90%; 
+    height: 100%;
+
+}

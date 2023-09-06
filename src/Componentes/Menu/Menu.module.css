@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.sidebar {
+    width: 20%;
+  
+    background-color: white;
+  }
+
+  /* Estilos para os itens do menu */
+  .sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    cursor: pointer;
+    height: 17.5%;
+    border-top: 0.5px solid black;
+    border-bottom:0.5px solid black; ;
+    transition: 0.3s;
+  }
+  .sidebar h2{
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 81, 15);
+    display: block;
+    transition: 0.3s;
+    border-top: 7px solid rgb(0, 81, 15);
+    background-color: rgb(237, 239, 241);
+    height: 65px;
+    
+  }
+
+  /* border solid so na parte superior do h2 */
+
+  /* Estilos para os itens do menu quando passa o mouse por cima */
+  .sidebar a:hover {
+    background-color: #bebdbd;
+  }
+
+  .sidebar .active {
+    background-color: #4CAF50;
+  }
+
+  .sidebar .active:hover {
+    background-color: #4CAF50;
+  }
+
+  /* ocutar sidebar e deixala visivel quando clicar na seta */
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    /* Estilos para o botão de fechar */
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+    }
+ 
+
+
+
+
+
+
